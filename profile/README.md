@@ -4,6 +4,7 @@ Welcome to Applied Design!
 Here you will find some sparse documentation regarding commonly used workflows, standards and projects.
 
 ### Using Inno Setup
+---
 Inno Setup is a program that allows us to create an installer via configuration object. This is especially useful when packaging a PyInstaller project built using onedir. 
 
 You can download it here:
@@ -32,5 +33,7 @@ Double click on the .iss folder to open Inno Installer. At the top of the main f
 #define ArtisanPath "C:\Users\17203\PycharmProjects\ArtisanLogViz"
 ```
 
-When packaging things locally, the only thing you will need to change is the hard reference to path. Click 'compile' to rebuild the installer.exe.
+When packaging things locally, the only thing you will need to change is the hard reference to path. Click 'compile' to rebuild the installer.exe. Make sure to update the 'MyAppVersion' field where appropriate.
+
+
 
