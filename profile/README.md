@@ -1,4 +1,4 @@
-## Applied Design Corperation
+## Applied Design Corporation
 Welcome to Applied Design! 
 
 Here you will find some sparse documentation regarding commonly used workflows, standards and projects.
