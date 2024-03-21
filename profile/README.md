@@ -1,12 +1,36 @@
 ## Applied Design Corperation
+Welcome to Applied Design! 
 
-<!--
+Here you will find some sparse documentation regarding commonly used workflows, standards and projects.
 
-**Here are some ideas to get you started:**
+### Using Inno Setup
+Inno Setup is a program that allows us to create an installer via configuration object. This is especially useful when packaging a PyInstaller project built using onedir. 
 
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+You can download it here:
+https://jrsoftware.org/isdl.php
+
+For viable projects, there will be a folder structure that looks something like this.
+
+```
+---- Base
+|
+-------> Installer
+    |    installer_config.iss
+    | --------> Output
+        |------> MyInstaller.exe
+
+```
+
+Double click on the .iss folder to open Inno Installer. At the top of the main file, you should see a list of defines. For example:
+
+```
+#define MyAppName "Artisan Data Analysis Tool"
+#define MyAppVersion "3.2.1"
+#define MyAppPublisher "Applied Design Corperation"
+#define MyAppURL "https://applieddesigncorp.com/"
+#define MyAppExeName "ADAT.exe"
+#define ArtisanPath "C:\Users\17203\PycharmProjects\ArtisanLogViz"
+```
+
+When packaging things locally, the only thing you will need to change is the hard reference to path. Click 'compile' to rebuild the installer.exe.
+
