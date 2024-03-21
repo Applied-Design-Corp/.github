@@ -27,7 +27,7 @@ Double click on the .iss folder to open Inno Installer. At the top of the main f
 ```
 #define MyAppName "Artisan Data Analysis Tool"
 #define MyAppVersion "3.2.1"
-#define MyAppPublisher "Applied Design Corperation"
+#define MyAppPublisher "Applied Design Corporation"
 #define MyAppURL "https://applieddesigncorp.com/"
 #define MyAppExeName "ADAT.exe"
 #define ArtisanPath "C:\Users\17203\PycharmProjects\ArtisanLogViz"
